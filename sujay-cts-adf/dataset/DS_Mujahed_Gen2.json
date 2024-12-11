@@ -10,7 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "empActiveV1.csv",
+				"fileName": {
+					"value": "@concat('Inc-PL-',pipeline().RunId,'.txt')",
+					"type": "Expression"
+				},
 				"fileSystem": "outputemp"
 			},
 			"columnDelimiter": "|",
