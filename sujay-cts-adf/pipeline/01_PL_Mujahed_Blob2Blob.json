@@ -49,13 +49,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DS_Mujahed_Input_Blob",
+						"referenceName": "DS_Mujahed_Blob",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DS_Mujahed_Output_Blob",
+						"referenceName": "DS_Mujahed_Blob",
 						"type": "DatasetReference"
 					}
 				]
