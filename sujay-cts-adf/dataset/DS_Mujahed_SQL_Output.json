@@ -5,9 +5,6 @@
 			"referenceName": "LS_Mujahed_SQL",
 			"type": "LinkedServiceReference"
 		},
-		"folder": {
-			"name": "03.Blob2SQL"
-		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [

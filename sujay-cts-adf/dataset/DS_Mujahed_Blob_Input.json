@@ -5,9 +5,6 @@
 			"referenceName": "LS_Mujahed_Blob",
 			"type": "LinkedServiceReference"
 		},
-		"folder": {
-			"name": "03.Blob2SQL"
-		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
