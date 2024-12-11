@@ -10,8 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "inputEmp.txt",
-				"fileSystem": "inputemp"
+				"fileSystem": "outputemp"
 			},
 			"columnDelimiter": "|",
 			"escapeChar": "\\",
