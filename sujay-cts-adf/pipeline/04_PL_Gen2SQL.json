@@ -49,7 +49,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DS_Mujahed_SQL_Output",
+						"referenceName": "DS_Mujahed_SQL",
 						"type": "DatasetReference"
 					}
 				]
