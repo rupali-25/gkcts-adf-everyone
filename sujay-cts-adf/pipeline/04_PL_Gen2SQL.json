@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "CP_Gen2Sql",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
