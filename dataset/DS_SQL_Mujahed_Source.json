@@ -21,7 +21,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "wmt_mujahed"
+			"table": "dst_mujahed"
 		}
 	}
 }
