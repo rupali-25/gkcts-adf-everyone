@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "adf-everyone"
 		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
 		"LS_GRP4_SOURCE_VENU_accountKey": {
 			"value": ""
 		},
@@ -34,6 +37,15 @@
 		},
 		"onkar_handson_accountKey": {
 			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sqlserver4everyone.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "db4everyone"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "adminuser"
 		},
 		"LS_GRP4_SOURCE_VENU_properties_typeProperties_url": {
 			"value": "https://sa12decidl.dfs.core.windows.net/"

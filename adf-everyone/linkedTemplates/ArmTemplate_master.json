@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adf-everyone"
 		},
+		"AzureSqlDatabase1_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'AzureSqlDatabase1'"
+		},
 		"LS_GRP4_SOURCE_VENU_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'LS_GRP4_SOURCE_VENU'"
@@ -46,6 +50,18 @@
 		"onkar_handson_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'onkar_handson'"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "sqlserver4everyone.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "db4everyone"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "adminuser"
 		},
 		"LS_GRP4_SOURCE_VENU_properties_typeProperties_url": {
 			"type": "string",
@@ -110,6 +126,9 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
+					"AzureSqlDatabase1_password": {
+						"value": "[parameters('AzureSqlDatabase1_password')]"
+					},
 					"LS_GRP4_SOURCE_VENU_accountKey": {
 						"value": "[parameters('LS_GRP4_SOURCE_VENU_accountKey')]"
 					},
@@ -139,6 +158,15 @@
 					},
 					"onkar_handson_accountKey": {
 						"value": "[parameters('onkar_handson_accountKey')]"
+					},
+					"AzureSqlDatabase1_properties_typeProperties_server": {
+						"value": "[parameters('AzureSqlDatabase1_properties_typeProperties_server')]"
+					},
+					"AzureSqlDatabase1_properties_typeProperties_database": {
+						"value": "[parameters('AzureSqlDatabase1_properties_typeProperties_database')]"
+					},
+					"AzureSqlDatabase1_properties_typeProperties_userName": {
+						"value": "[parameters('AzureSqlDatabase1_properties_typeProperties_userName')]"
 					},
 					"LS_GRP4_SOURCE_VENU_properties_typeProperties_url": {
 						"value": "[parameters('LS_GRP4_SOURCE_VENU_properties_typeProperties_url')]"
